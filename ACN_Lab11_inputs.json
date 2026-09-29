@@ -1,0 +1,26 @@
+{
+  "locked_prediction": {
+    "timestamp": "2026-09-29 20:32:38 UTC",
+    "input_change": "FY2027E-FY2030E revenue growth: 3.0% to 4.0% each year (+1.0 percentage point); FY2026E stays 4.0%",
+    "expected_direction_and_size": "FY2030E operating profit about $0.5 billion higher, FY2030E FCFE about $0.35 billion higher, and value about $5-$7 per share higher than base",
+    "reason": "Higher organic revenue compounds for four years. At the model's positive gross margin it lifts operating profit; taxes, receivables net of deferred revenue, and capex absorb part of the FCFE increase. A higher final-year FCFE also raises terminal value. This is a pre-run analytical estimate, not an observed result."
+  },
+  "drivers": [
+    {
+      "key": "growth",
+      "unit": "percent",
+      "years": [2027, 2028, 2029, 2030],
+      "lower": {"2027": 2.0, "2028": 2.0, "2029": 2.0, "2030": 2.0},
+      "higher": {"2027": 4.0, "2028": 4.0, "2029": 4.0, "2030": 4.0},
+      "range_reason": "Analyst judgment anchored in ACN_Lab10.md: estimated organic growth was about 4% in FY2025 and about 2% in FY2026. Apply a uniform -1/+1 percentage-point shift to the 3% FY2027E-FY2030E base path; retain FY2026E guidance-based 4%. No acquisition spending is added."
+    },
+    {
+      "key": "gross_margin",
+      "unit": "percent",
+      "years": [2026, 2027, 2028, 2029, 2030],
+      "lower": {"2026": 31.9, "2027": 31.9, "2028": 31.9, "2029": 31.9, "2030": 31.9},
+      "higher": {"2026": 32.6, "2027": 32.6, "2028": 32.6, "2029": 32.6, "2030": 32.6},
+      "range_reason": "Use Accenture's documented FY2023-FY2025 gross-margin history in ACN_Lab10.md: 31.9%-32.6%, against the model's 32.0% base. Apply each endpoint to all five forecast years. The asymmetric range is historical, and its width affects the span comparison."
+    }
+  ]
+}
